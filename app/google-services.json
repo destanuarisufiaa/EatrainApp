@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "857894758627",
+    "project_id": "eatrain-app",
+    "storage_bucket": "eatrain-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857894758627:android:b50013274db3664f38bdd6",
+        "android_client_info": {
+          "package_name": "com.example.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857894758627-j22kimqrtg0tasf2jv8shutc90eej6qm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPzpopdmGh7UIAVJYxI1IzVeqAUmFHFVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857894758627-j22kimqrtg0tasf2jv8shutc90eej6qm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
