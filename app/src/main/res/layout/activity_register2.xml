@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="30dp">
+            android:padding="40dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -30,21 +30,83 @@
                 android:textAlignment="center"
                 android:textColor="@color/teal_700"
                 android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_nama_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                android:layout_marginTop="5dp"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/edt_nomorhp_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomor Handphone"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/txt_gender_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:textSize="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="1dp"/>
+
+            <RadioGroup
+                android:id="@+id/rg_gender1_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pria"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wanita"
+                    android:layout_marginLeft="10dp"/>
+            </RadioGroup>
 
             <EditText
                 android:id="@+id/edt_email_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="ex : destanuari@gmail.com"
+                android:textSize="10dp"
+                android:textColor="#F10707" />
 
             <EditText
                 android:id="@+id/edt_password_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="note : panjang password tidak boleh kurang dari 6"
+                android:textSize="10dp"
+                android:textColor="#F10707" />
+
+
+
 
             <Button
                 android:id="@+id/btn_register"
@@ -62,12 +124,13 @@
                 android:text="Already Have Account"
                 android:textAlignment="center"/>
 
-            //jika ingin balik ke halaman login
+<!--            jika ingin balik ke halaman login-->
+
             <TextView
                 android:id="@+id/tv_to_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
+                android:backgroundTint="@color/teal_700"
                 android:text="Login"
                 android:textAlignment="center"
                 android:textColor="@color/teal_700"
